@@ -20,4 +20,9 @@ router.get('/quiz', function(req, res, next) {
   res.render('dashboard/testquiz');
 })
 
+
+router.get('/test', function(req, res, next) {
+  res.render('dashboard/test');
+})
+
 module.exports = router;
