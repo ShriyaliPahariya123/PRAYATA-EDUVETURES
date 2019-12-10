@@ -16,13 +16,14 @@ router.get('/course', function(req, res, next) {
   res.render('dashboard/courses');
 })
 
-router.get('/quiz', function(req, res, next) {
-  res.render('dashboard/testquiz');
-})
 
 
 router.get('/test', function(req, res, next) {
   res.render('dashboard/test');
+})
+
+router.get('/quiz', function(req, res, next) {
+  res.render('dashboard/quiz');
 })
 
 module.exports = router;
