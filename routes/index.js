@@ -26,4 +26,9 @@ router.get('/quiz', function(req, res, next) {
   res.render('dashboard/quiz');
 })
 
+
+router.get('/end', function(req, res, next) {
+  res.render('dashboard/endquiz');
+})
+
 module.exports = router;
