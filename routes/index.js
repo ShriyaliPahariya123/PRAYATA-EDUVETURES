@@ -30,5 +30,8 @@ router.get('/quiz', function(req, res, next) {
 router.get('/end', function(req, res, next) {
   res.render('dashboard/endquiz');
 })
+router.get('/attempt', function(req, res, next) {
+  res.render('dashboard/questionattempt');
+})
 
 module.exports = router;

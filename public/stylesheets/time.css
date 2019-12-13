@@ -1,0 +1,121 @@
+.table{
+    background: #f6f6f6;
+}
+.CountdownContainer{
+ position: absolute;
+ top:5%;
+ left:13%;
+ text-align: center;
+ border:none;
+ padding:10px;
+
+}
+.info{
+    font-size: 12px;
+}
+.CountdownContainertable{
+    position: absolute;
+    top:5%;
+    left:80%;
+    text-align: center;
+    border:none;
+    padding:10px;
+   
+   }
+
+
+
+.calender{
+    margin:0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'poppins',sans-serif;
+    width: 300px;
+    height: auto;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+}
+.calender .date{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px , 10fr));
+    grid-gap: 20px;
+    box-sizing: border-box;
+
+
+}
+
+.calender .date div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    color: #262626;
+    font-size: 16px;
+}
+
+.active{
+    background: #56a5eb;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.number:hover{
+    background: #56a5eb;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.content{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+.designbtn1,
+.designbtn4{
+    border: 1px solid #56a5eb;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'montserrat';
+    cursor: pointer;
+    margin: 10px;
+    color: #56a5eb;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.designbtn3,
+.designbtn2{
+    border: 1px solid #56a5eb;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'montserrat';
+    cursor: pointer;
+    margin: 10px;
+    color: #56a5eb;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.designbtn1:hover,
+.designbtn4:hover{
+    color: #fff;
+    background: #56a5eb;
+}
+
+.designbtn3:hover,
+.designbtn2:hover{
+    color: #fff;
+    background: #56a5eb;
+}

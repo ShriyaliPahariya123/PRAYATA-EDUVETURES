@@ -7,12 +7,15 @@
             <title>Quiz</title>
             <link rel='stylesheet' href='/stylesheets/quiz.css' />
             <link rel='stylesheet' href='/stylesheets/app.css' />
+            <link rel='stylesheet' href='/stylesheets/time.css' />
             <link rel="stylesheet" href="./asset/css/dashboard.css">
-           
+            <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <%- include('./partials/sidebar'); -%>
         <section id="contents" class="">
+            <%- include('./time'); -%>
+          <br><br>
             <div class="container">     
                     <div id="game" class="justify-center flex-column">
                             <div id="hud">
@@ -50,10 +53,13 @@
                       </div>
                     </div>
                   </div>              
-        </div></section>
-        <script src="./js/game.js"></script>
-        <script src="./js/jquery-latest.js"></script>
+        </div><%- include('./buttons'); -%>
+        <%- include('./questionattempt'); -%>
+      </section>
+<script src="./js/game.js"></script>
+<script src="./js/jquery-latest.js"></script>
 <script src="./js/bootstrap.min.js"></script>
 <script src='./asset/js/dashboar.js'></script>
+
     </body>
 </html>
