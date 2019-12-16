@@ -13,7 +13,7 @@ router.get('/index', function(req, res, next)  {
 })
 
 router.get('/course', function(req, res, next) {
-  res.render('dashboard/courses');
+  res.render('dashboard/course');
 })
 
 
