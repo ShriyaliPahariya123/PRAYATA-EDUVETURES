@@ -34,4 +34,8 @@ router.get('/attempt', function(req, res, next) {
   res.render('dashboard/questionattempt');
 })
 
+router.get('/compare', function(req, res, next) {
+  res.render('dashboard/comparepeers');
+})
+
 module.exports = router;
